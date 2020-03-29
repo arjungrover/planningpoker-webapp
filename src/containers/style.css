@@ -1,0 +1,14 @@
+.home-page-title {
+    font-size: 35px;
+    text-shadow: 0 0 5px blue;
+    margin-bottom: 20px;
+}
+
+.home-page {
+    margin: 15px;
+    background-color: white;
+    padding: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+/* .box{
+        margin-left:200px;
+        max-width: 550px;
+        height: 500px
+}
+.label-txt{
+    color: white;
+    margin-left:30px;
+} */
+.box{
+    background-color: white;
+    max-width:900px;
+    max-height:550px;
+    margin: auto;
+}

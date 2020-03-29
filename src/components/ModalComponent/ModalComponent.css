@@ -1,0 +1,34 @@
+.grp-form{
+    margin-top:60px;
+    margin-left:10px;
+}
+.grp-fields{
+    width:300px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(82, 52, 52);
+    margin-bottom: 10px;
+}
+
+.fields{
+    display: flex;
+    flex-direction:row;
+}
+
+.grp-text{
+    color: darkorange;
+}
+
+.err-msg{
+    color:red;
+}
+
+.dropdown-div{
+    background-color: white;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.multi-selected{
+    margin-bottom: 20px;
+}

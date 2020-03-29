@@ -1,0 +1,30 @@
+.user-verified {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.user-verified-head {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.verified-login {
+    text-align: left;
+}
+
+.not-verified-signup {
+    display: inline;
+}
+
+.not-verified-signup:hover {
+    text-decoration: underline;
+}
+
+.verified-login:hover {
+    text-decoration: underline;
+}

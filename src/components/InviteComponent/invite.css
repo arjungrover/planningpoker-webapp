@@ -1,0 +1,37 @@
+.accept-btn{
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 6px;
+    color: darkred;
+    border-radius: 8px;
+    margin-left: 440px;
+    width:300px;
+    margin-top: 100px;
+    
+}
+.accept-txt{
+    color:white;
+    margin-top:60px;
+    margin-left: 40px;
+}
+.errorMsg{
+    margin-top: 80px;
+    margin-left: 110px;
+    color: white;
+}
+.reject-btn{
+    background-color: hsl(4, 90%, 58%);
+    color: yellow;
+    font-size: 16px;
+    width:300px;
+    padding: 6px;
+    border-radius: 8px;
+    margin-left: 440px;
+    
+}
+
+.msg-invite{
+      margin-left:520px;
+      margin-top:200px;
+      color:blanchedalmond;
+}

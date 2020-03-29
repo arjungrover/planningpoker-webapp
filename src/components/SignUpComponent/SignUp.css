@@ -1,0 +1,73 @@
+.signup-component {
+    width: 550px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.form-component {
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.signup-form {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.signup-form input {
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #d5d0e8;
+    border: solid 0px;
+    padding: 10px 20px;
+}
+
+.signup-form .signup-button {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    background-color: rgb(223, 55, 55);
+    color: white;
+    border: solid 0px;
+    box-shadow: 0 0 3px black;
+}
+
+.password-error {
+    position: absolute;
+    color:red;
+    margin: 0;
+    padding: 0;
+    bottom: 72px;
+    left: 15px;
+}
+
+.email-error {
+    position: absolute;
+    color:red;
+    margin: 0;
+    padding: 0;
+    bottom: 72px;
+    left: 15px;
+}
+
+.login-instead {
+    margin: 0;
+    text-align: center;
+}
+
+.login-instead:hover {
+    text-decoration: underline;
+}
+
+.signup-success-div {
+    text-align: center;
+    padding-bottom: 15px;
+}

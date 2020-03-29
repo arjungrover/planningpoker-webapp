@@ -1,0 +1,93 @@
+/* .update-form{
+    margin-left: 50cm;
+} */
+
+.edit-poker-container {
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.edit-poker-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.input-div{
+    margin-bottom: 10px;
+
+}
+
+.edit-poker-submit{
+    background-color: rgb(24, 146, 24);
+    color: white;
+    border-radius: 5px;
+}
+
+.add-grp-spectator{
+    margin-bottom:40px;
+}
+
+.add-grp-player{
+    margin-bottom: 30px;
+}
+
+.grp-spectator-label{
+    color: orangered;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.grp-player-label{
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+.submit-btn-grp{
+    width:110px;
+    height:35px;
+    background-color:limegreen;
+    border-radius: 5px;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.add-grp-btn{
+    margin-bottom: 45px;
+}
+
+.user-label{
+   font-weight: bold;
+   font-size:18px;
+   color: darkgreen;
+
+}
+.user-add-list{
+   margin-bottom: 40px;
+}
+
+.select-role-label{
+    color : blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.select-user-list{
+    margin-bottom: 20px;
+}
+.add-user-btn{
+    width:110px;
+    height:35px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.close-settings-btn {
+    display: block;
+    margin: 20px 0;
+    padding: 8px 15px;
+    background-color: rgb(248, 36, 36);
+    color: white;
+}

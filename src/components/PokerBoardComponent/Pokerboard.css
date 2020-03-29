@@ -1,0 +1,408 @@
+button {
+    cursor: pointer;
+}
+
+.pokerboard-container {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.pokerboard-details {
+    font-size: 20px;
+}
+
+.pokerboard-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(41, 41, 41)
+}
+
+.game-error-message {
+    color:red;
+}
+
+.pokerboard-manager {
+    font-weight: bold;
+    color: blue;
+}
+
+.pokerboard-estimate {
+    font-weight: bold;
+    color: blue;
+}
+
+.pokerboard-details-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Collapsible__trigger {
+    background-color: lightblue;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px blue;
+    padding: 3px 8px;
+}
+
+.start-game-button,.join-game-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(43, 156, 43);
+    color: white;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.start-game-button:hover {
+    box-shadow: 0 5px 5px rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.issue-list {
+    box-shadow: 0 0 5px black;
+    margin: 15px 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.issue-list-summary {
+    font-size: 20px;
+    color: rgb(57, 2, 109);
+    font-weight: bold;
+}
+
+.issue-list-estimate {
+    color: rgb(50, 50, 50);
+    font-size: 15px;
+}
+
+.game-component {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.issue-details {
+    box-shadow: 0 0 5px black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timer {
+    font-size: 20px;
+    color: rgb(228, 38, 38);
+    width: 200px;
+}
+
+.timer-time {
+    font-size: 25px;
+}
+
+.online-players {
+    background-color: blue;
+    padding: 5px;
+    color: rgb(219, 219, 250);
+}
+
+.online-players-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    border-top: 1px solid rgb(219, 219, 250);
+    color: white;
+}
+
+.game-navbar {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(183, 183, 248);
+}
+
+.issue-summary {
+    border-bottom: 1px solid rgb(185, 184, 184);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.react-search-field-input{
+    width:450px;
+}
+.issue-description {
+    padding-top: 5px;
+}
+
+.nav-btn {
+    padding: 5px 10px;
+    background-color: #353591;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 3px 3px gray;
+}
+
+.nav-btn:hover {
+    box-shadow: 0 6px 6px gray;
+    cursor: pointer;
+}
+
+.next-issue {
+    margin-left: 350px;
+}
+
+.card {
+    height: 70px;
+    width: 50px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    margin: 0 10px 15px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    background-color: rgb(221, 217, 201);
+    float: left;
+}
+
+.estimated-area {
+    margin-top: 50px;
+}
+
+.estimated-cards {
+    margin-bottom: 0;
+}
+
+.chosen-card-area {
+    margin-top: 20px;
+}
+
+.estimated-area-cards {
+    display: flex;
+}
+
+.card-with-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSet:hover {
+    box-shadow: 0 5px 10px black;
+    cursor: pointer;
+}
+
+.estimated-player-name {
+    font-size: 12px;
+    margin: 3px 10px;
+}
+
+.all-card-area {
+    margin-top: 20px;
+}
+
+.card-list {
+    margin-top: 10px;
+}
+
+.game-submit-button {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(36, 143, 36);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 5px 5px gray;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+
+.game-estimate-input {
+    padding: 3px 5px;
+    margin: 5px 0;
+}
+
+.game-submit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 10px gray;
+}
+
+.game-over-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.game-component-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-area-flex {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-area {
+    width: 100%;
+}
+
+.game-area-width {
+    width: 1000px
+}
+
+.start-game-btn {
+    padding: 2px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(41, 150, 41);
+}
+
+.quit-game-btn {
+    padding: 2px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(238, 24, 24);
+}
+
+.poker-settings-btn{
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    color: white;
+}
+
+.add-story-label{
+    color: violet;
+}
+
+.open-modal-btn {
+    background:green;
+    color:white;
+    padding: 8px 10px;
+    margin: 20px 0 50px 0;
+}
+
+.open-modal-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.is-open {
+    background-color: lightcoral;
+}
+
+.add-stories-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.modal-field{
+    width:600px;
+    margin:auto;
+}
+
+.custom-inp-field{
+    margin: 15px 0;
+}
+
+.custom-story-input{
+    margin-bottom: 15px;
+    padding: 3px 5px;
+    width: 300px;
+}
+
+.add-custom-btn{
+    background-color: greenyellow;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.custom-story-detail{
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.remove-custom-story{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.jira-story-detail{
+    background-color: lightgrey;
+    position: relative;
+    width: 600px;
+    margin: auto;
+    margin: 10px 200px;
+
+}
+
+.close-jira{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.jira-modal-close-btn{
+    background-color: tomato;
+    color: white;
+    padding: 3px 43px;
+    border-radius: 5px;
+}
+
+.create-btn-field{
+    margin-bottom: 10px;
+}
+
+.create-custom-story-btn{
+    background-color: green;
+    color: white;
+    padding: 3px 40px;
+    border-radius: 5px;
+}
+
+.close-custom-story-btn {
+    background-color: tomato;
+    color: white;
+    padding: 3px 43px;
+    border-radius: 5px;
+}
+
+.jira-modal-add-btn{
+    margin-top: 30px;
+    margin-left: 200px;   
+    background-color: greenyellow;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.jira-add-btn-field{
+    margin-bottom: 30px;
+}
+
+.jira-search-error {
+    color: red;
+    font-size: 15px;
+    margin-left: 300px;
+}
+
+

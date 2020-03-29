@@ -1,0 +1,178 @@
+.pokerboard-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: auto; 
+
+}
+.id-input-text{
+    width:400px;
+    height:30px;
+    margin-left:200px;
+    margin-top:20px;
+}
+.react-search-field{
+    margin-left:200px;
+    margin-top:20px;
+}
+.select-options{
+    margin-left:200px
+}
+.jira-select-options{
+    width:300px;
+    height:30px;
+    color:green;
+}
+.pokerboard-component{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;  
+    position: relative;
+}
+
+.Field{
+   display: flex;
+   justify-content: space-between;
+   margin: 4px;
+   
+}
+
+.Field .Create-Button{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: rgb(223, 55, 55);
+    color: white;
+    border: solid 0px;
+    box-shadow: 0 0 3px black;
+}
+
+.createpokerboard {
+    width: 550px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 40px;
+    position: relative;
+}
+
+.InputBox{
+    width: 200px;
+}
+
+.InputBox input{
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+}
+
+.InputBox input:focus{
+    outline: none;
+}
+
+.SelectBox{
+    width:200px;
+}
+
+.valuebox{
+    width: 175px;
+} 
+
+.open-modal-text {
+    color: blue;
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+}
+
+.open-modal-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.error-state {
+    color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 200px;
+}
+.close-btn{
+    margin-left:850px;
+}
+.txt-error{
+    color: blue;
+    margin-left:190px;
+    margin-top: 50px;
+}
+.modal-field {
+    width: 600px;
+    margin: auto;
+}
+
+.showStories {
+    margin-top:5px;
+    border: solid 1px gray;
+    margin-left: 30px;
+    padding: 2px;
+    position: relative;
+    background-color: rgb(198, 218, 236);
+}
+
+.showStories p{
+    margin: 0;
+}
+
+.showStories-description {
+    color: rgb(37, 37, 37);
+}
+
+.custom-story-form {
+    width: 300px;
+    padding: 10px 0;
+}
+
+.custom-story-form input {
+    margin: 2px 0;
+}
+
+.custom-story-form .custom-story-button {
+    background-color: rgb(49, 150, 49);
+    color: white;
+    width: 100px;
+}
+
+.jira-modal-close-btn{
+    margin-left:200px;
+    margin-top:10px;
+    padding: 10px;
+    background-color: rgb(235, 91, 91);
+    color: white;
+}
+.modal-close-button {
+    padding: 10px;
+    background-color: rgb(235, 91, 91);
+    color: white;
+}
+
+.jira-modal-field input {
+    visibility: hidden;
+}
+
+.delete-summary {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    color: red;
+    cursor: pointer;
+}
+
+.jira-story-select {
+    width: 600px;
+}
