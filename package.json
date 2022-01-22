@@ -13,7 +13,7 @@
     "history": "^4.10.1",
     "moxios": "^0.4.0",
     "multiselect-react-dropdown": "^1.4.7",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "react": "^16.12.0",
     "react-chartjs-2": "^2.9.0",
     "react-charts": "^2.0.0-beta.6",
